@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Github } from "lucide-react"
 
 export function HeroSection() {
   const [isHovered, setIsHovered] = useState(false)
@@ -14,11 +14,11 @@ export function HeroSection() {
       <header className="container mx-auto flex items-center justify-between py-6">
         <div className="flex items-center gap-2">
           <div className="flex h-6 w-6 items-center justify-center">
-            <span className="text-2xl font-bold">+</span>
+            <Image src="/nebulaid.png" alt="NubulaID" width={60} height={60} />
           </div>
           <span className="text-lg font-medium">NubulaID</span>
         </div>
-        <nav className="hidden md:block">
+        {/* <nav className="hidden md:block">
           <ul className="flex items-center gap-8">
             <li>
               <Link href="#features" className="text-sm font-medium hover:text-gray-600">
@@ -46,16 +46,16 @@ export function HeroSection() {
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <Link
           href="#demo"
           className="hidden rounded-none bg-black px-4 py-2 text-sm font-medium text-white hover:bg-black/90 md:inline-block"
         >
-          Get a Demo
+          Try Beta Version
         </Link>
       </header>
 
-      <div className="container mx-auto mt-12 grid grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-12 lg:mt-20">
+      <div className="container mx-auto my-12 grid grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-12 lg:my-32">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ export function HeroSection() {
           className="flex flex-col justify-center"
         >
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Individual and Corporate KYC Software{" "}
+            Universal Identity Protocol for Everyone and Everything
             <motion.span
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -85,8 +85,7 @@ export function HeroSection() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="mt-6 text-lg text-gray-700"
           >
-            A versatile solution for verifying customer identity, simplifying the KYC registration process and managing
-            the entire customer lifecycle.
+            Open-source, interoperable and standardized protocol for identity aggregation and verification on the blockchain.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -95,16 +94,19 @@ export function HeroSection() {
             className="mt-8 flex flex-wrap gap-4"
           >
             <Link
-              href="#book-demo"
+              href="https://app.nubulaid.xyz"
               className="inline-flex items-center justify-center rounded-none bg-black px-6 py-3 text-sm font-medium text-white hover:bg-black/90"
             >
-              Book a Demo
+              <ArrowRight className="mr-2 h-4 w-4" />
+              Try Beta Version
             </Link>
             <Link
-              href="#use-cases"
+              href="https://github.com/NebulaID"
+              target="_blank"
               className="inline-flex items-center justify-center rounded-none border border-gray-300 bg-white px-6 py-3 text-sm font-medium text-black hover:bg-gray-50"
             >
-              Use Cases
+              <Github className="mr-2 h-4 w-4" />
+              Github
             </Link>
           </motion.div>
         </motion.div>
@@ -219,7 +221,7 @@ export function HeroSection() {
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.6, duration: 0.6 }}
@@ -266,7 +268,7 @@ export function HeroSection() {
             <ArrowRight className="h-4 w-4 text-black" />
           </motion.div>
         </motion.a>
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

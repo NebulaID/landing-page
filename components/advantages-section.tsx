@@ -41,11 +41,9 @@ export function AdvantagesSection() {
         >
           {/* Card 1 - Comply with regulations */}
           <motion.div variants={item} className="flex flex-col rounded-3xl bg-white p-6 md:p-8">
-            <h3 className="mb-4 text-xl font-bold md:text-2xl">Comply with regulations</h3>
+            <h3 className="mb-4 text-xl font-bold md:text-2xl">Verify Once, Access Everywhere</h3>
             <p className="mb-8 text-sm text-gray-700 md:text-base">
-              With more than 50 years of hands-on experience in the financial and regulatory fields, our team can
-              customize the system to meet your specific requirements, providing a solution for global, local and future
-              regulatory compliance.
+              Users can verify their identity once and use it across multiple platforms and planets. Reduce complexity to access and verify identity while maintaining the highest level of security for identity verification.
             </p>
             <div className="mt-auto flex justify-center">
               <div className="relative h-36 w-36 rounded-full bg-purple-500">
@@ -64,10 +62,10 @@ export function AdvantagesSection() {
 
           {/* Card 2 - Operate businesses worldwide */}
           <motion.div variants={item} className="flex flex-col rounded-3xl bg-white p-6 md:p-8">
-            <h3 className="mb-4 text-xl font-bold md:text-2xl">Operate businesses worldwide</h3>
+            <h3 className="mb-4 text-xl font-bold md:text-2xl">Any device, anywhere</h3>
             <p className="mb-8 text-sm text-gray-700 md:text-base">
-              We authenticate 3,000+ document types from over 200+ countries in local languages, which means you can
-              recruit and verify clients all over the world.
+              Using NebulaID,your digital identity is accessible anywhere on any device by using any verified authenciator.
+              Using our satellite nodes connection, there is no territorial limits and geographical restrictions for your identity verification.
             </p>
             <div className="mt-auto flex justify-center">
               <div className="relative h-36 w-36 rounded-full bg-[#e4ff54]">
@@ -120,10 +118,9 @@ export function AdvantagesSection() {
 
           {/* Card 3 - Streamline on-boarding */}
           <motion.div variants={item} className="flex flex-col rounded-3xl bg-white p-6 md:p-8">
-            <h3 className="mb-4 text-xl font-bold md:text-2xl">Streamline on-boarding</h3>
+            <h3 className="mb-4 text-xl font-bold md:text-2xl">Zero-Knowledge Privacy</h3>
             <p className="mb-8 text-sm text-gray-700 md:text-base">
-              Use our web application or integrate it into your system using the API to quickly improve the customer
-              intake experience and analyze your process for continuous adaptation and improvement.
+              Protect your personal information with our advanced zero-knowledge proof technology. Verify your identity and credentials without revealing sensitive data, maintaining complete control over your personal information.
             </p>
             <div className="mt-auto flex justify-center">
               <div className="relative h-36 w-36 rounded-full bg-gray-200">
@@ -153,9 +150,10 @@ export function AdvantagesSection() {
 
           {/* Card 4 - Protect your customer data */}
           <motion.div variants={item} className="flex flex-col rounded-3xl bg-white p-6 md:p-8">
-            <h3 className="mb-4 text-xl font-bold md:text-2xl">Protect your customer data</h3>
+            <h3 className="mb-4 text-xl font-bold md:text-2xl">Instant Cross-Chain Scale</h3>
             <p className="mb-8 text-sm text-gray-700 md:text-base">
-              Your data security is our priority. Get access to bank-grade security and stay the owner of your data.
+              Why limit yourself to one blockchain when you can seamlessly verify your identity across multiple networks?
+              NebulaID aims to integrate with major blockchain platforms, providing unified identity verification across the entire Web3 ecosystem.
             </p>
             <div className="mt-auto flex justify-center">
               <div className="relative h-36 w-36 rounded-full bg-purple-500">
@@ -183,10 +181,10 @@ export function AdvantagesSection() {
         >
           <div className="flex flex-col items-start gap-6 md:flex-row md:items-center">
             <div className="md:w-1/2">
-              <h3 className="mb-4 text-xl font-bold md:text-2xl">World-class customer support</h3>
+              <h3 className="mb-4 text-xl font-bold md:text-2xl">Open Source & Community Driven</h3>
               <p className="text-sm text-gray-700 md:text-base">
-                Your dedicated account manager will guide and support you through the entire process: installation,
-                training, maintenance and ongoing support.
+                Our platform is built on the principles of open source and community-driven development.
+                We welcome contributions and feedback from the community to improve the protocol and make it more secure and reliable.
               </p>
             </div>
             <div className="flex w-full justify-center md:w-1/2">

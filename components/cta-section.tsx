@@ -18,8 +18,8 @@ export function CTASection() {
             Ready to transform your identity verification process?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-300">
-            Join over 500,000 successful onboardings with NubulaID's secure, compliant, and efficient verification
-            solution.
+            Join NubulaID's secure, decentralized, and efficient verification
+            solution to verify & protect across web2 and web3.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import Image from "next/image"
 export function Footer() {
   return (
     <footer className="w-full bg-white py-12 md:py-16">
@@ -7,15 +7,11 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4 lg:gap-12">
           <div>
             <div className="flex items-center gap-2">
-              <div className="flex h-6 w-6 items-center justify-center">
-                <span className="text-2xl font-bold">+</span>
+              <div className="flex h-10 w-10 items-center justify-center">
+                <Image src="/nebulaid.png" alt="NubulaID" width={300} height={300} />
               </div>
-              <span className="text-lg font-medium">NubulaID</span>
+              <span className="text-3xl font-medium">NubulaID</span>
             </div>
-            <p className="mt-4 text-sm text-gray-600">
-              A versatile solution for verifying customer identity, simplifying the KYC registration process and
-              managing the entire customer lifecycle.
-            </p>
           </div>
 
           <div>
@@ -101,7 +97,7 @@ export function Footer() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-gray-600">© {new Date().getFullYear()} NubulaID. All rights reserved.</p>
             <div className="flex gap-6">
-              <Link href="#" className="text-gray-600 hover:text-black">
+              <Link href="https://x.com/NebulaIDxyz" className="text-gray-600 hover:text-black">
                 <span className="sr-only">Twitter</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +133,7 @@ export function Footer() {
                   <circle cx="4" cy="4" r="2" />
                 </svg>
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-black">
+              <Link href="https://github.com/NebulaID" className="text-gray-600 hover:text-black">
                 <span className="sr-only">GitHub</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

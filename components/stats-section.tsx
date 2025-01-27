@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-
+import Image from "next/image"
 export function StatsSection() {
   const container = {
     hidden: { opacity: 0 },
@@ -20,7 +20,7 @@ export function StatsSection() {
   }
 
   return (
-    <section className="w-full bg-purple-500 pb-16 md:pb-24">
+    <section className="w-full bg-purple-500 px-16 md:py-36">
       <div className="container mx-auto px-4">
         <motion.div
           variants={container}
@@ -31,6 +31,7 @@ export function StatsSection() {
         >
           {/* Logo */}
           <motion.div variants={item} className="flex items-center justify-center rounded-3xl bg-white p-6 md:p-8">
+            <Image src="/nebulaid.png" alt="NubulaID" width={100} height={100} />
             <h3 className="text-3xl font-bold md:text-4xl">NubulaID</h3>
           </motion.div>
 

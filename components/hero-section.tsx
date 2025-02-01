@@ -48,7 +48,7 @@ export function HeroSection() {
           </ul>
         </nav> */}
         <Link
-          href="#demo"
+          href="https://app.nubulaid.xyz"
           className="hidden rounded-none bg-black px-4 py-2 text-sm font-medium text-white hover:bg-black/90 md:inline-block"
         >
           Try Beta Version

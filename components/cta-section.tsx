@@ -23,16 +23,17 @@ export function CTASection() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="#book-demo"
+              href="https://calendly.com/0xshikhar/30min"
+              target="_blank"
               className="inline-flex h-12 items-center justify-center rounded-none bg-white px-8 text-sm font-medium text-black hover:bg-gray-100"
             >
-              Book a Demo
+              Book a Call
             </Link>
             <Link
-              href="#contact"
+              href="mailto:hi@nubulaid.xyz"
               className="inline-flex h-12 items-center justify-center rounded-none border border-white bg-transparent px-8 text-sm font-medium text-white hover:bg-white/10"
             >
-              Contact Sales
+              Contact Us
             </Link>
           </div>
         </motion.div>

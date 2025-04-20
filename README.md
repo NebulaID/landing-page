@@ -19,4 +19,16 @@ NebulaID is a decentralized identity verification platform that allows users to 
 - Shadcn UI
 
 
+### Contributing
+
+We welcome contributions to NebulaID! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
+
+
+### License
+
+NebulaID is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.   
+
+
+
+
 

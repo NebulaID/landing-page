@@ -14,9 +14,9 @@ export function HeroSection() {
       <header className="container mx-auto flex items-center justify-between py-6">
         <div className="flex items-center gap-2">
           <div className="flex h-6 w-6 items-center justify-center">
-            <Image src="/nebulaid.png" alt="NubulaID" width={60} height={60} />
+            <Image src="/nebulaid.png" alt="NebulaID" width={60} height={60} />
           </div>
-          <span className="text-lg font-medium">NubulaID</span>
+          <span className="text-lg font-medium">NebulaID</span>
         </div>
         {/* <nav className="hidden md:block">
           <ul className="flex items-center gap-8">
@@ -48,7 +48,7 @@ export function HeroSection() {
           </ul>
         </nav> */}
         <Link
-          href="https://app.nubulaid.xyz"
+          href="https://app.nebulaid.xyz"
           className="hidden rounded-none bg-black px-4 py-2 text-sm font-medium text-white hover:bg-black/90 md:inline-block"
         >
           Try Beta Version
@@ -94,7 +94,7 @@ export function HeroSection() {
             className="mt-8 flex flex-wrap gap-4"
           >
             <Link
-              href="https://app.nubulaid.xyz"
+              href="https://app.nebulaid.xyz"
               className="inline-flex items-center justify-center rounded-none bg-black px-6 py-3 text-sm font-medium text-white hover:bg-black/90"
             >
               <ArrowRight className="mr-2 h-4 w-4" />

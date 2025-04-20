@@ -5,7 +5,7 @@ export default function GDPRCompliancePage() {
 
             <section className="prose max-w-3xl mx-auto">
                 <h2>Our Commitment to GDPR</h2>
-                <p>NubulaID is fully committed to protecting the personal data of European Union residents in compliance with the General Data Protection Regulation (GDPR).</p>
+                <p>NebulaID is fully committed to protecting the personal data of European Union residents in compliance with the General Data Protection Regulation (GDPR).</p>
 
                 <h2>Your Rights</h2>
                 <p>Under GDPR, you have the following rights:</p>
@@ -29,7 +29,7 @@ export default function GDPRCompliancePage() {
                 </ul>
 
                 <h2>Contact Us</h2>
-                <p>For any GDPR-related inquiries, please contact our Data Protection Officer at dpo@nubulaid.xyz</p>
+                <p>For any GDPR-related inquiries, please contact our Data Protection Officer at dpo@nebulaid.xyz</p>
             </section>
         </div>
     )

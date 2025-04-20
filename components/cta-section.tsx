@@ -18,7 +18,7 @@ export function CTASection() {
             Ready to transform your identity verification process?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-300">
-            Join NubulaID's secure, decentralized, and efficient verification
+            Join NebulaID's secure, decentralized, and efficient verification
             solution to verify & protect across web2 and web3.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -30,7 +30,7 @@ export function CTASection() {
               Book a Call
             </Link>
             <Link
-              href="mailto:hi@nubulaid.xyz"
+              href="mailto:hi@nebulaid.xyz"
               className="inline-flex h-12 items-center justify-center rounded-none border border-white bg-transparent px-8 text-sm font-medium text-white hover:bg-white/10"
             >
               Contact Us

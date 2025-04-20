@@ -29,7 +29,7 @@ export function AdvantagesSection() {
           transition={{ duration: 0.6 }}
           className="mb-12 text-center text-4xl font-bold text-white md:text-5xl"
         >
-          NubulaID Advantages
+          NebulaID Advantages
         </motion.h2>
 
         <motion.div

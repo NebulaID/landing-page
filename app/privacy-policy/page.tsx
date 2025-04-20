@@ -5,7 +5,7 @@ export default function PrivacyPolicyPage() {
 
             <section className="prose max-w-3xl mx-auto">
                 <h2>Introduction</h2>
-                <p>At NubulaID, we are committed to protecting your personal information and being transparent about how we collect, use, and safeguard your data.</p>
+                <p>At NebulaID, we are committed to protecting your personal information and being transparent about how we collect, use, and safeguard your data.</p>
 
                 <h2>Information We Collect</h2>
                 <p>We collect information that you provide directly to us, including:</p>

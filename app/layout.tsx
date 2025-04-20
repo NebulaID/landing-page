@@ -3,7 +3,7 @@ import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata = {
-  title: "NubulaID - Web3 Identity Protocol",
+  title: "NebulaID - Web3 Identity Protocol",
   description: "A versatile solution for verifying customer identity in the web3 space",
     generator: 'v0.dev'
 }

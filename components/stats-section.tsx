@@ -31,8 +31,8 @@ export function StatsSection() {
         >
           {/* Logo */}
           <motion.div variants={item} className="flex items-center justify-center rounded-3xl bg-white p-6 md:p-8">
-            <Image src="/nebulaid.png" alt="NubulaID" width={100} height={100} />
-            <h3 className="text-3xl font-bold md:text-4xl">NubulaID</h3>
+            <Image src="/nebulaid.png" alt="NebulaID" width={100} height={100} />
+            <h3 className="text-3xl font-bold md:text-4xl">NebulaID</h3>
           </motion.div>
 
           {/* 200+ countries */}

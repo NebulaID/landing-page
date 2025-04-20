@@ -5,7 +5,7 @@ export default function TermsOfServicePage() {
 
             <section className="prose max-w-3xl mx-auto">
                 <h2>Acceptance of Terms</h2>
-                <p>By accessing or using NubulaID's services, you agree to these terms and conditions.</p>
+                <p>By accessing or using NebulaID's services, you agree to these terms and conditions.</p>
 
                 <h2>User Responsibilities</h2>
                 <p>Users are responsible for:</p>
@@ -16,7 +16,7 @@ export default function TermsOfServicePage() {
                 </ul>
 
                 <h2>Service Usage</h2>
-                <p>NubulaID provides identity verification services with the following conditions:</p>
+                <p>NebulaID provides identity verification services with the following conditions:</p>
                 <ul>
                     <li>Services are for authorized and legal purposes only</li>
                     <li>We reserve the right to suspend or terminate accounts</li>
@@ -24,7 +24,7 @@ export default function TermsOfServicePage() {
                 </ul>
 
                 <h2>Limitation of Liability</h2>
-                <p>NubulaID is not liable for indirect, incidental, or consequential damages arising from service use.</p>
+                <p>NebulaID is not liable for indirect, incidental, or consequential damages arising from service use.</p>
             </section>
         </div>
     )
